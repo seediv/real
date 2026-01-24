@@ -110,7 +110,7 @@ export default function CasesPage() {
       </section>
 
       {/* Cases Grid */}
-      <section className="container-base py-8 pb-24">
+      <section className="container-base py-8 pb-16">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-6">
             {cases.map((caseItem) => (
@@ -148,6 +148,156 @@ export default function CasesPage() {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Coming Soon Cases */}
+      <section className="container-base py-16 bg-gray-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 font-montserrat">
+            候補ケース
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {/* ソフトウェア */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                ソフトウェア
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">TCP/IP</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                階層化による複雑性の分離
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                ソフトウェア
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">REST API</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                制約による統一インターフェース
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                ソフトウェア
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">Lisp</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                コードとデータの同一性
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+
+            {/* 建築・デザイン */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                建築
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">伊勢神宮</h3>
+              <p className="text-gray-500 text-sm mt-2">式年遷宮による永続性</p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                デザイン
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">LEGO</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                単純な結合規約による無限の表現
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                デザイン
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">Bauhaus</h3>
+              <p className="text-gray-500 text-sm mt-2">形態は機能に従う</p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+
+            {/* 自然・科学 */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                生物学
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">免疫システム</h3>
+              <p className="text-gray-500 text-sm mt-2">自己と非自己の識別</p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                物理学
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">相対性理論</h3>
+              <p className="text-gray-500 text-sm mt-2">光速不変という制約</p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                生態学
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">サンゴ礁</h3>
+              <p className="text-gray-500 text-sm mt-2">共生による創発</p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+
+            {/* 組織・社会 */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                組織
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">トヨタ生産方式</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                ムダの排除と継続的改善
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                社会
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">憲法</h3>
+              <p className="text-gray-500 text-sm mt-2">制約による権力の解放</p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                言語
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">俳句</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                5-7-5の制約による無限の表現
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
           </div>
         </div>
       </section>
