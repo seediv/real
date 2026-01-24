@@ -300,9 +300,9 @@ export default async function CaseDetailPage({ params }: PageProps) {
         <div className="max-w-4xl mx-auto">
           <Link
             href="/case"
-            className="text-gray-500 hover:text-gray-700 mb-4 inline-block"
+            className="text-gray-500 hover:text-gray-700 mb-4 inline-block text-sm"
           >
-            ← 事例一覧
+            ← Cases
           </Link>
           <div className="flex items-start justify-between">
             <div>
@@ -446,8 +446,11 @@ export default async function CaseDetailPage({ params }: PageProps) {
       {/* Navigation */}
       <section className="container-base py-12">
         <div className="max-w-4xl mx-auto flex justify-between items-center">
-          <Link href="/case" className="text-gray-500 hover:text-gray-700">
-            ← 事例一覧に戻る
+          <Link
+            href="/case"
+            className="text-gray-500 hover:text-gray-700 text-sm"
+          >
+            ← Back to Cases
           </Link>
           <Link
             href="/"

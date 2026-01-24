@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Montserrat, Noto_Sans_JP } from "next/font/google";
-import Link from "next/link";
 import "./globals.css";
+import { Header } from "@/components/Header";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700", "800"],
   variable: "--font-montserrat",
   display: "swap",
 });
@@ -22,40 +22,6 @@ export const metadata: Metadata = {
   description:
     "TIP（Translation Integrity Principles）— AI時代の「問いの質」を構造化し、意図を守る15原則",
 };
-
-function Header() {
-  return (
-    <header className="container-base py-4 border-b border-gray-100">
-      <nav className="flex items-center justify-between">
-        <Link href="/" className="site-logo text-gray-900">
-          GOOD
-        </Link>
-        <div className="flex items-center gap-6">
-          <Link
-            href="/case"
-            className="text-gray-600 hover:text-gray-900 text-sm font-medium"
-          >
-            Cases
-          </Link>
-          <Link
-            href="/tip"
-            className="text-gray-600 hover:text-gray-900 text-sm font-medium"
-          >
-            TIP Docs
-          </Link>
-          <a
-            href="https://github.com/seediv/good"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-600 hover:text-gray-900 text-sm font-medium"
-          >
-            GitHub
-          </a>
-        </div>
-      </nav>
-    </header>
-  );
-}
 
 function Footer() {
   return (

@@ -94,6 +94,35 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-montserrat), "Montserrat", system-ui, sans-serif;
 }
 
+/* ===========================================
+   Header responsive styles
+   =========================================== */
+/* Hide mobile menu button on desktop */
+@media (min-width: 768px) {
+  .mobile-menu-button {
+    display: none !important;
+  }
+  .desktop-nav {
+    display: flex !important;
+  }
+  .header-divider {
+    display: block;
+  }
+  .header-subtitle {
+    display: block;
+  }
+}
+
+/* Hide subtitle and divider on mobile */
+@media (max-width: 767px) {
+  .header-divider {
+    display: none;
+  }
+  .header-subtitle {
+    display: none;
+  }
+}
+
 /* アニメーション */
 @keyframes fade-in {
   from {
