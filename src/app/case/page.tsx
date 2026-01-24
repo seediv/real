@@ -310,6 +310,82 @@ export default function CasesPage() {
                 Coming Soon
               </span>
             </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                音楽
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">楽譜</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                音から記号への次元変換
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+
+            {/* インフラ・都市 */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                ソフトウェア
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">Kubernetes</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                階層的抽象化によるオーケストレーション
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                ソフトウェア
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">ZFS</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                Copy-on-Writeによる圧縮と余白
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                インフラ
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">インターネット</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                End-to-End原則による創発
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                都市設計
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">都市の路地</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                計画されない空間からの創発
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
+
+            {/* 文化 */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">
+                文化
+              </span>
+              <h3 className="font-bold text-gray-700 mt-1">茶道/一期一会</h3>
+              <p className="text-gray-500 text-sm mt-2">
+                二度と同じ瞬間はない文脈の一回性
+              </p>
+              <span className="text-xs text-gray-400 mt-3 inline-block">
+                Coming Soon
+              </span>
+            </div>
           </div>
         </div>
       </section>
