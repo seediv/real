@@ -18,7 +18,7 @@ export default function GoodPage() {
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-gray-900 mb-6 font-montserrat tracking-tighter">
           意図が、消えない世界
         </h1>
-        <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto mb-8">
+        <p className="text-xl md:text-2xl text-gray-600 mb-8">
           AI時代、「思った通りに実装される」は当たり前ではない。
           <br />
           TIPは「問いの質」を構造化し、意図を守る。
@@ -417,7 +417,7 @@ export default function GoodPage() {
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-black tracking-tighter text-gray-900 mb-4 md:mb-6 font-montserrat">
           TIPを始める
         </h2>
-        <p className="text-base md:text-xl text-gray-600 md:max-w-2xl md:mx-auto mb-6 md:mb-8">
+        <p className="text-base md:text-xl text-gray-600 mb-6 md:mb-8">
           まずは核心4原則を覚え、次のタスクで試してみる。
           <br />
           5分で始められる。

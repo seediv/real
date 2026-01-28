@@ -1467,7 +1467,7 @@ export default async function CaseDetailPage({ params }: PageProps) {
               <p className="text-xl text-gray-500 font-montserrat">
                 {caseData.titleEn}
               </p>
-              <p className="mt-6 text-lg text-gray-700 leading-relaxed max-w-2xl">
+              <p className="mt-6 text-lg text-gray-700 leading-relaxed">
                 {caseData.leadText}
               </p>
             </div>

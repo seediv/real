@@ -667,7 +667,7 @@ export default async function PrincipleDetailPage({ params }: PageProps) {
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-black text-gray-900 mt-2">
               {principle.name}
             </h1>
-            <p className="mt-4 text-lg text-gray-600 max-w-2xl">
+            <p className="mt-4 text-lg text-gray-600">
               {principle.description}
             </p>
             <div className="mt-4 flex gap-3 text-sm text-gray-500">
