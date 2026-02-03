@@ -244,7 +244,7 @@ export default function TipPage() {
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <a
-              href="https://github.com/seediv/good/blob/main/docs/TIP-quickstart.md"
+              href="https://github.com/seediv/real/blob/main/docs/TIP-quickstart.md"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-white rounded-xl p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
@@ -255,7 +255,7 @@ export default function TipPage() {
               </p>
             </a>
             <a
-              href="https://github.com/seediv/good/blob/main/docs/TIP-reference.md"
+              href="https://github.com/seediv/real/blob/main/docs/TIP-reference.md"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-white rounded-xl p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
@@ -266,7 +266,7 @@ export default function TipPage() {
               </p>
             </a>
             <a
-              href="https://github.com/seediv/good/blob/main/docs/TIP-cheatsheet.md"
+              href="https://github.com/seediv/real/blob/main/docs/TIP-cheatsheet.md"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-white rounded-xl p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"

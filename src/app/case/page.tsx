@@ -1,5 +1,5 @@
 /**
- * GOOD Cases Index Page
+ * REAL Cases Index Page
  *
  * 美しい実装の事例一覧
  * TIP核心4原則を逆算で発見した現物たち

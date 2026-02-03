@@ -1,4 +1,4 @@
-# GOOD Agent
+# REAL Agent
 
 ## Design System準拠
 - **参照**: https://mirror.seehub.org/design-system

@@ -1,5 +1,5 @@
 /**
- * GOOD Principle Detail Page
+ * REAL Principle Detail Page
  *
  * 各原則の横断的比較 — 20事例を通して原則の本質を浮かび上がらせる
  */

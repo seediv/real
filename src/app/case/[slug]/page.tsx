@@ -1,5 +1,5 @@
 /**
- * GOOD Case Detail Page
+ * REAL Case Detail Page
  *
  * 美しい実装の詳細分析
  * 各現物からTIP核心4原則を逆算
@@ -8,7 +8,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-// C3: 構造に検証を埋め込む — GOOD自身がC3を満たす型定義
+// C3: 構造に検証を埋め込む — REAL自身がC3を満たす型定義
 type PrincipleId = "C1" | "C2" | "C3" | "C4";
 type Pair<A extends PrincipleId, B extends PrincipleId> = [A, B];
 

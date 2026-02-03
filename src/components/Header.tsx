@@ -12,7 +12,7 @@ const NAVIGATION = [
   { name: "Cases", href: "/case" },
   { name: "Principles", href: "/principle" },
   { name: "TIP Docs", href: "/tip" },
-  { name: "GitHub", href: "https://github.com/seediv/good", external: true },
+  { name: "GitHub", href: "https://github.com/seediv/real", external: true },
 ];
 
 export const Header = memo(function Header() {
@@ -105,7 +105,7 @@ export const Header = memo(function Header() {
                   gap: "var(--spacing-lg)",
                 }}
               >
-                <span className="site-logo">GOOD</span>
+                <span className="site-logo">REAL</span>
                 {/* Divider */}
                 <div
                   className="header-divider"

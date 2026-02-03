@@ -1,5 +1,5 @@
 /**
- * GOOD Principles Index Page
+ * REAL Principles Index Page
  *
  * 4原則の横断的比較への入口
  */

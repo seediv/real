@@ -40,7 +40,7 @@ export default function middleware(request: NextRequest) {
     return new NextResponse("Authentication required", {
       status: 401,
       headers: {
-        "WWW-Authenticate": 'Basic realm="GOOD Dashboard"',
+        "WWW-Authenticate": 'Basic realm="REAL Dashboard"',
       },
     });
   }

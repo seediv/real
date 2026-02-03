@@ -1,5 +1,5 @@
 /**
- * GOOD Project Landing Page
+ * REAL Project Landing Page
  *
  * TIP（Translation Integrity Principles）を世界に展開するプロジェクト
  * Design: Marketing density mode (72px H1, 18px body, 64px section gaps)
@@ -7,7 +7,7 @@
 
 import Link from "next/link";
 
-export default function GoodPage() {
+export default function RealPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -430,7 +430,7 @@ export default function GoodPage() {
             TIPドキュメント
           </Link>
           <a
-            href="https://github.com/seediv/good"
+            href="https://github.com/seediv/real"
             className="inline-block px-6 md:px-8 py-3 md:py-4 border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition-colors"
           >
             GitHub

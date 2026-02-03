@@ -18,7 +18,7 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "GOOD｜意図が消えない世界へ",
+  title: "REAL｜意図が消えない世界へ",
   description:
     "TIP（Translation Integrity Principles）— AI時代の「問いの質」を構造化し、意図を守る15原則",
 };
@@ -27,7 +27,7 @@ function Footer() {
   return (
     <footer className="container-base py-8 border-t border-gray-200 mt-auto">
       <div className="text-center text-gray-500 text-sm">
-        <p>GOOD Project — 意図が消えない世界へ</p>
+        <p>REAL Project — 意図が消えない世界へ</p>
         <p className="mt-2">
           A project by{" "}
           <a
