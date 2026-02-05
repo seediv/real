@@ -31,7 +31,7 @@ export default function TipPage() {
           <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 mb-6 font-montserrat">
             なぜ必要か
           </h2>
-          <div className="bg-gray-50 rounded-xl p-8 border border-gray-200">
+          <div className="bg-gray-50 rounded-none p-8 border border-gray-200">
             <pre className="text-gray-700 font-mono text-sm md:text-base">
               {`意図 ──────→ 実装
        ↑
@@ -57,7 +57,7 @@ export default function TipPage() {
           </h2>
           <p className="text-gray-600 mb-8">C1→C2→C3→C4（この順序で適用）</p>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-xl p-6 border border-gray-200">
+            <div className="bg-white rounded-none p-6 border border-gray-200">
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-2xl font-bold text-gray-900 font-montserrat">
                   C1
@@ -68,7 +68,7 @@ export default function TipPage() {
               </div>
               <p className="text-gray-600">何を禁止すれば可能性が広がるか？</p>
             </div>
-            <div className="bg-white rounded-xl p-6 border border-gray-200">
+            <div className="bg-white rounded-none p-6 border border-gray-200">
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-2xl font-bold text-gray-900 font-montserrat">
                   C2
@@ -79,7 +79,7 @@ export default function TipPage() {
               </div>
               <p className="text-gray-600">最小の約束事は何か？</p>
             </div>
-            <div className="bg-white rounded-xl p-6 border border-gray-200">
+            <div className="bg-white rounded-none p-6 border border-gray-200">
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-2xl font-bold text-gray-900 font-montserrat">
                   C3
@@ -90,7 +90,7 @@ export default function TipPage() {
               </div>
               <p className="text-gray-600">どうすれば間違いに気づけるか？</p>
             </div>
-            <div className="bg-white rounded-xl p-6 border border-gray-200">
+            <div className="bg-white rounded-none p-6 border border-gray-200">
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-2xl font-bold text-gray-900 font-montserrat">
                   C4
@@ -113,7 +113,7 @@ export default function TipPage() {
           </h2>
           <p className="text-gray-600 mb-8">フェーズ別に適用</p>
           <div className="space-y-6">
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+            <div className="bg-gray-50 rounded-none p-6 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-3">
                 A 形式化（意図→仕様）
               </h3>
@@ -123,7 +123,7 @@ export default function TipPage() {
                 <li>A3 先行固定 — 変わらない部分を先に確定する</li>
               </ul>
             </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+            <div className="bg-gray-50 rounded-none p-6 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-3">
                 B 構造化（仕様→設計）
               </h3>
@@ -132,7 +132,7 @@ export default function TipPage() {
                 <li>B2 次元変換 — 概念を実装可能な形に変換する</li>
               </ul>
             </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+            <div className="bg-gray-50 rounded-none p-6 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-3">
                 I 実装（設計→動作）
               </h3>
@@ -141,7 +141,7 @@ export default function TipPage() {
                 <li>I2 意図発見 — 実装を通じて意図を発見する</li>
               </ul>
             </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+            <div className="bg-gray-50 rounded-none p-6 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-3">
                 E 進化（実装→改善）
               </h3>
@@ -150,7 +150,7 @@ export default function TipPage() {
                 <li>E2 段階習熟 — 段階的に理解を深める</li>
               </ul>
             </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+            <div className="bg-gray-50 rounded-none p-6 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-3">
                 X 横断（全フェーズ）
               </h3>
@@ -170,15 +170,15 @@ export default function TipPage() {
             3つのメタ原則
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-gray-800 rounded-xl p-6">
+            <div className="bg-gray-800 rounded-none p-6">
               <h3 className="font-bold text-white mb-2">M1 意図の優位性</h3>
               <p className="text-gray-400">ルールより目標を優先</p>
             </div>
-            <div className="bg-gray-800 rounded-xl p-6">
+            <div className="bg-gray-800 rounded-none p-6">
               <h3 className="font-bold text-white mb-2">M2 次元的効率性</h3>
               <p className="text-gray-400">本質を失わずに圧縮・変換</p>
             </div>
-            <div className="bg-gray-800 rounded-xl p-6">
+            <div className="bg-gray-800 rounded-none p-6">
               <h3 className="font-bold text-white mb-2">
                 M3 関係性エンコーディング
               </h3>
@@ -194,36 +194,36 @@ export default function TipPage() {
           <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 mb-6 font-montserrat">
             出典
           </h2>
-          <div className="bg-gray-50 rounded-xl p-8 border border-gray-200">
+          <div className="bg-gray-50 rounded-none p-8 border border-gray-200">
             <h3 className="font-bold text-gray-900 mb-4">美しい現物から逆算</h3>
             <div className="flex flex-wrap gap-3 mb-6">
               <Link
                 href="/case/unix"
-                className="px-4 py-2 bg-white border border-gray-200 rounded-lg hover:border-gray-400 transition-colors"
+                className="px-4 py-2 bg-white border border-gray-200 rounded-full hover:border-gray-400 transition-colors"
               >
                 Unix哲学
               </Link>
               <Link
                 href="/case/git"
-                className="px-4 py-2 bg-white border border-gray-200 rounded-lg hover:border-gray-400 transition-colors"
+                className="px-4 py-2 bg-white border border-gray-200 rounded-full hover:border-gray-400 transition-colors"
               >
                 Git
               </Link>
               <Link
                 href="/case/katsura"
-                className="px-4 py-2 bg-white border border-gray-200 rounded-lg hover:border-gray-400 transition-colors"
+                className="px-4 py-2 bg-white border border-gray-200 rounded-full hover:border-gray-400 transition-colors"
               >
                 桂離宮
               </Link>
               <Link
                 href="/case/dna"
-                className="px-4 py-2 bg-white border border-gray-200 rounded-lg hover:border-gray-400 transition-colors"
+                className="px-4 py-2 bg-white border border-gray-200 rounded-full hover:border-gray-400 transition-colors"
               >
                 DNA複製
               </Link>
               <Link
                 href="/case/category-theory"
-                className="px-4 py-2 bg-white border border-gray-200 rounded-lg hover:border-gray-400 transition-colors"
+                className="px-4 py-2 bg-white border border-gray-200 rounded-full hover:border-gray-400 transition-colors"
               >
                 圏論
               </Link>
@@ -247,7 +247,7 @@ export default function TipPage() {
               href="https://github.com/seediv/real/blob/main/docs/TIP-quickstart.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-white rounded-xl p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
+              className="block bg-white rounded-none p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
             >
               <h3 className="font-bold text-gray-900 mb-2">Quick Start</h3>
               <p className="text-gray-600 text-sm">
@@ -258,7 +258,7 @@ export default function TipPage() {
               href="https://github.com/seediv/real/blob/main/docs/TIP-reference.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-white rounded-xl p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
+              className="block bg-white rounded-none p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
             >
               <h3 className="font-bold text-gray-900 mb-2">Reference</h3>
               <p className="text-gray-600 text-sm">
@@ -269,28 +269,28 @@ export default function TipPage() {
               href="https://github.com/seediv/real/blob/main/docs/TIP-cheatsheet.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-white rounded-xl p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
+              className="block bg-white rounded-none p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
             >
               <h3 className="font-bold text-gray-900 mb-2">Cheatsheet</h3>
               <p className="text-gray-600 text-sm">
                 手元に置きたい方へ。1ページ要約。
               </p>
             </a>
-            <div className="block bg-gray-100 rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="block bg-gray-100 rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">Summary</h3>
               <p className="text-gray-500 text-sm">30秒で理解する概要</p>
               <span className="text-xs text-gray-400 mt-2 inline-block">
                 Coming Soon
               </span>
             </div>
-            <div className="block bg-gray-100 rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="block bg-gray-100 rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">Patterns Catalog</h3>
               <p className="text-gray-500 text-sm">適用パターン集</p>
               <span className="text-xs text-gray-400 mt-2 inline-block">
                 Coming Soon
               </span>
             </div>
-            <div className="block bg-gray-100 rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="block bg-gray-100 rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">
                 Integration Guide
               </h3>
@@ -310,7 +310,7 @@ export default function TipPage() {
             ツール
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-gray-50 rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">TIP Template</h3>
               <p className="text-gray-500 text-sm">
                 Cursor / Claude Code 用テンプレート
@@ -319,14 +319,14 @@ export default function TipPage() {
                 Coming Soon
               </span>
             </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-gray-50 rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">TIP GPT</h3>
               <p className="text-gray-500 text-sm">TIPを適用するカスタムGPT</p>
               <span className="text-xs text-gray-400 mt-2 inline-block">
                 Coming Soon
               </span>
             </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-gray-50 rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">TIP Linter</h3>
               <p className="text-gray-500 text-sm">
                 AIへの指示をTIP観点でチェック
@@ -335,7 +335,7 @@ export default function TipPage() {
                 Coming Soon
               </span>
             </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-gray-50 rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">TIP IDE Plugin</h3>
               <p className="text-gray-500 text-sm">VSCode / Cursor 拡張機能</p>
               <span className="text-xs text-gray-400 mt-2 inline-block">
@@ -353,7 +353,7 @@ export default function TipPage() {
             教育・コミュニティ
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-white rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">TIP認定研修</h3>
               <p className="text-gray-500 text-sm">
                 Practitioner / Master / Trainer
@@ -362,35 +362,35 @@ export default function TipPage() {
                 Coming Soon
               </span>
             </div>
-            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-white rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">TIP Meetup</h3>
               <p className="text-gray-500 text-sm">月1回のオンライン勉強会</p>
               <span className="text-xs text-gray-400 mt-2 inline-block">
                 Coming Soon
               </span>
             </div>
-            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-white rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">TIP Conference</h3>
               <p className="text-gray-500 text-sm">年1回のカンファレンス</p>
               <span className="text-xs text-gray-400 mt-2 inline-block">
                 Coming Soon
               </span>
             </div>
-            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-white rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">TIP協会</h3>
               <p className="text-gray-500 text-sm">認定・研究・ブランド管理</p>
               <span className="text-xs text-gray-400 mt-2 inline-block">
                 Coming Soon
               </span>
             </div>
-            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-white rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">論文・書籍</h3>
               <p className="text-gray-500 text-sm">学術論文・一般書籍</p>
               <span className="text-xs text-gray-400 mt-2 inline-block">
                 Coming Soon
               </span>
             </div>
-            <div className="bg-white rounded-xl p-6 border border-gray-200 opacity-60">
+            <div className="bg-white rounded-none p-6 border border-gray-200 opacity-60">
               <h3 className="font-bold text-gray-700 mb-2">TIP診断</h3>
               <p className="text-gray-500 text-sm">組織のTIP成熟度診断</p>
               <span className="text-xs text-gray-400 mt-2 inline-block">
@@ -406,7 +406,7 @@ export default function TipPage() {
         <div className="flex justify-end">
           <Link
             href="/case"
-            className="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors"
           >
             事例を見る →
           </Link>

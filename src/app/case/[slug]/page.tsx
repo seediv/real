@@ -1509,7 +1509,7 @@ export default async function CaseDetailPage({ params }: PageProps) {
               <Link
                 key={principle.id}
                 href={`/principle/${principle.id.toLowerCase()}`}
-                className="block bg-gray-50 rounded-xl p-6 border border-gray-200 hover:border-gray-400 hover:bg-gray-100 transition-colors"
+                className="block bg-gray-50 rounded-none p-6 border border-gray-200 hover:border-gray-400 hover:bg-gray-100 transition-colors"
               >
                 <div className="flex items-center gap-3 mb-3">
                   <span className="text-2xl font-bold text-gray-900 font-montserrat">
@@ -1537,7 +1537,7 @@ export default async function CaseDetailPage({ params }: PageProps) {
                 <Link
                   key={principle.id}
                   href={`/principle/${principle.id.toLowerCase()}`}
-                  className="block rounded-lg p-4 border border-dashed border-gray-300 hover:border-gray-500 hover:bg-gray-50 transition-colors"
+                  className="block rounded-none p-4 border border-dashed border-gray-300 hover:border-gray-500 hover:bg-gray-50 transition-colors"
                 >
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-sm font-bold text-gray-400 font-montserrat">
@@ -1567,7 +1567,7 @@ export default async function CaseDetailPage({ params }: PageProps) {
             <h3 className="text-lg font-bold text-gray-900 mb-3">
               {caseData.implementation.label}
             </h3>
-            <ul className="bg-white rounded-xl p-6 border border-gray-200 space-y-2">
+            <ul className="bg-white rounded-none p-6 border border-gray-200 space-y-2">
               {caseData.implementation.items.map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-gray-700">
                   <span className="text-gray-400">•</span>
@@ -1586,7 +1586,7 @@ export default async function CaseDetailPage({ params }: PageProps) {
             <h3 className="text-lg font-bold text-gray-900 mb-3">
               {caseData.intermediateRepresentation.label}
             </h3>
-            <ul className="bg-white rounded-xl p-6 border border-gray-200 space-y-2">
+            <ul className="bg-white rounded-none p-6 border border-gray-200 space-y-2">
               {caseData.intermediateRepresentation.items.map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-gray-700">
                   <span className="text-gray-400 font-mono">{i + 1}.</span>
@@ -1605,7 +1605,7 @@ export default async function CaseDetailPage({ params }: PageProps) {
             <h3 className="text-lg font-bold text-gray-900 mb-3">
               意図（逆算）
             </h3>
-            <div className="bg-gray-900 text-white rounded-xl p-6">
+            <div className="bg-gray-900 text-white rounded-none p-6">
               <p className="text-xl font-medium">「{caseData.intent}」</p>
             </div>
           </div>
@@ -1622,7 +1622,7 @@ export default async function CaseDetailPage({ params }: PageProps) {
             {caseData.connection.items.map((item, i) => (
               <div
                 key={i}
-                className="bg-gray-50 rounded-lg p-4 border border-gray-200"
+                className="bg-gray-50 rounded-none p-4 border border-gray-200"
               >
                 <p className="text-gray-700">{item}</p>
               </div>
@@ -1668,7 +1668,7 @@ export default async function CaseDetailPage({ params }: PageProps) {
                   <Link
                     key={key}
                     href={`/case/${key}`}
-                    className="flex items-center justify-between bg-gray-50 rounded-lg p-4 border border-gray-200 hover:border-gray-400 transition-colors"
+                    className="flex items-center justify-between bg-gray-50 rounded-none p-4 border border-gray-200 hover:border-gray-400 transition-colors"
                   >
                     <div>
                       <span className="text-sm text-gray-500">
@@ -1698,7 +1698,7 @@ export default async function CaseDetailPage({ params }: PageProps) {
         <div className="flex justify-end">
           <Link
             href="/tip"
-            className="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors"
           >
             TIP Docs →
           </Link>

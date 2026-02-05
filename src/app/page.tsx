@@ -26,13 +26,13 @@ export default function RealPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#core4"
-            className="inline-block px-8 py-4 bg-gray-900 text-white font-medium rounded-lg hover:bg-gray-800 transition-colors"
+            className="inline-block px-8 py-4 bg-gray-900 text-white font-medium rounded-full hover:bg-gray-800 transition-colors"
           >
             核心4原則を見る
           </a>
           <Link
             href="/tip"
-            className="inline-block px-8 py-4 border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition-colors"
+            className="inline-block px-8 py-4 border border-gray-300 text-gray-700 font-medium rounded-full hover:bg-gray-50 transition-colors"
           >
             詳細ドキュメント
           </Link>
@@ -45,7 +45,7 @@ export default function RealPage() {
           <h2 className="text-3xl md:text-4xl font-black tracking-tighter text-gray-900 mb-8 text-center font-montserrat">
             AI時代のバッドサイクル
           </h2>
-          <div className="bg-white rounded-xl p-4 md:p-8 border border-gray-200">
+          <div className="bg-white rounded-none p-4 md:p-8 border border-gray-200">
             <div className="space-y-4 text-base md:text-lg text-gray-700">
               <div className="flex items-start gap-4">
                 <span className="text-gray-400 font-mono">1.</span>
@@ -109,7 +109,7 @@ export default function RealPage() {
             <strong>15原則</strong>
           </p>
           <div className="grid md:grid-cols-3 gap-6 text-left">
-            <div className="bg-gray-50 rounded-xl p-4 md:p-6">
+            <div className="bg-gray-50 rounded-none p-4 md:p-6">
               <div className="text-4xl font-black tracking-tighter text-gray-900 mb-2 font-montserrat">
                 4
               </div>
@@ -120,7 +120,7 @@ export default function RealPage() {
                 C1→C2→C3→C4の順序で適用。この順序が品質を決める。
               </p>
             </div>
-            <div className="bg-gray-50 rounded-xl p-4 md:p-6">
+            <div className="bg-gray-50 rounded-none p-4 md:p-6">
               <div className="text-4xl font-black tracking-tighter text-gray-900 mb-2 font-montserrat">
                 11
               </div>
@@ -131,7 +131,7 @@ export default function RealPage() {
                 フェーズ別（形式化→構造化→実装→進化→横断）に適用。
               </p>
             </div>
-            <div className="bg-gray-50 rounded-xl p-4 md:p-6">
+            <div className="bg-gray-50 rounded-none p-4 md:p-6">
               <div className="text-4xl font-black tracking-tighter text-gray-900 mb-2 font-montserrat">
                 3
               </div>
@@ -160,7 +160,7 @@ export default function RealPage() {
           </p>
           <div className="grid md:grid-cols-2 gap-4 md:gap-8">
             {/* C1 */}
-            <div className="bg-gray-800 rounded-xl p-4 md:p-8">
+            <div className="bg-gray-800 rounded-none p-4 md:p-8">
               <div className="flex items-center gap-4 mb-4">
                 <span className="text-2xl md:text-3xl font-bold font-montserrat text-white">
                   C1
@@ -178,7 +178,7 @@ export default function RealPage() {
               </p>
             </div>
             {/* C2 */}
-            <div className="bg-gray-800 rounded-xl p-4 md:p-8">
+            <div className="bg-gray-800 rounded-none p-4 md:p-8">
               <div className="flex items-center gap-4 mb-4">
                 <span className="text-2xl md:text-3xl font-bold font-montserrat text-white">
                   C2
@@ -196,7 +196,7 @@ export default function RealPage() {
               </p>
             </div>
             {/* C3 */}
-            <div className="bg-gray-800 rounded-xl p-4 md:p-8">
+            <div className="bg-gray-800 rounded-none p-4 md:p-8">
               <div className="flex items-center gap-4 mb-4">
                 <span className="text-2xl md:text-3xl font-bold font-montserrat text-white">
                   C3
@@ -213,7 +213,7 @@ export default function RealPage() {
               </p>
             </div>
             {/* C4 */}
-            <div className="bg-gray-800 rounded-xl p-4 md:p-8">
+            <div className="bg-gray-800 rounded-none p-4 md:p-8">
               <div className="flex items-center gap-4 mb-4">
                 <span className="text-2xl md:text-3xl font-bold font-montserrat text-white">
                   C4
@@ -245,7 +245,7 @@ export default function RealPage() {
             <br />
             <strong>逆算</strong>して発見された。
           </p>
-          <div className="bg-gray-50 rounded-xl p-8 border border-gray-200 text-left">
+          <div className="bg-gray-50 rounded-none p-8 border border-gray-200 text-left">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="font-bold text-gray-900 mb-3">
@@ -276,7 +276,7 @@ export default function RealPage() {
           <div className="mt-8">
             <Link
               href="/case"
-              className="inline-block px-8 py-4 bg-gray-900 text-white font-medium rounded-lg hover:bg-gray-800 transition-colors"
+              className="inline-block px-8 py-4 bg-gray-900 text-white font-medium rounded-full hover:bg-gray-800 transition-colors"
             >
               美しい現物たちを見る →
             </Link>
@@ -361,7 +361,7 @@ export default function RealPage() {
           </p>
           <div className="grid md:grid-cols-3 gap-4 md:gap-8">
             {/* Phase 1 */}
-            <div className="bg-white rounded-xl p-4 md:p-8 border border-gray-200">
+            <div className="bg-white rounded-none p-4 md:p-8 border border-gray-200">
               <div className="text-sm text-gray-500 mb-2">Phase 1</div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 font-montserrat">
                 証明
@@ -377,7 +377,7 @@ export default function RealPage() {
               </ul>
             </div>
             {/* Phase 2 */}
-            <div className="bg-white rounded-xl p-4 md:p-8 border border-gray-200">
+            <div className="bg-white rounded-none p-4 md:p-8 border border-gray-200">
               <div className="text-sm text-gray-500 mb-2">Phase 2</div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 font-montserrat">
                 伝播
@@ -393,7 +393,7 @@ export default function RealPage() {
               </ul>
             </div>
             {/* Phase 3 */}
-            <div className="bg-white rounded-xl p-4 md:p-8 border border-gray-200">
+            <div className="bg-white rounded-none p-4 md:p-8 border border-gray-200">
               <div className="text-sm text-gray-500 mb-2">Phase 3</div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 font-montserrat">
                 定着
@@ -425,13 +425,13 @@ export default function RealPage() {
         <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
           <Link
             href="/tip"
-            className="inline-block px-6 md:px-8 py-3 md:py-4 bg-gray-900 text-white font-medium rounded-lg hover:bg-gray-800 transition-colors"
+            className="inline-block px-6 md:px-8 py-3 md:py-4 bg-gray-900 text-white font-medium rounded-full hover:bg-gray-800 transition-colors"
           >
             TIPドキュメント
           </Link>
           <a
             href="https://github.com/seediv/real"
-            className="inline-block px-6 md:px-8 py-3 md:py-4 border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition-colors"
+            className="inline-block px-6 md:px-8 py-3 md:py-4 border border-gray-300 text-gray-700 font-medium rounded-full hover:bg-gray-50 transition-colors"
           >
             GitHub
           </a>

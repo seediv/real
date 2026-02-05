@@ -76,7 +76,7 @@ export default function PrinciplesPage() {
               <Link
                 key={p.id}
                 href={`/principle/${p.id}`}
-                className="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-gray-400 hover:shadow-lg transition-all"
+                className="group block bg-white border border-gray-200 rounded-none p-6 hover:border-gray-400 hover:shadow-lg transition-all"
               >
                 <div className="flex items-start justify-between mb-3">
                   <span className="text-3xl font-black text-gray-900 font-montserrat">
@@ -109,13 +109,13 @@ export default function PrinciplesPage() {
         <div className="flex justify-between">
           <Link
             href="/case"
-            className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-gray-400 transition-colors"
+            className="px-6 py-3 border border-gray-300 text-gray-700 rounded-full hover:border-gray-400 transition-colors"
           >
             ← Cases
           </Link>
           <Link
             href="/tip"
-            className="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors"
           >
             TIP Docs →
           </Link>

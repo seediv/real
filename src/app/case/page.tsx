@@ -240,7 +240,7 @@ export default function CasesPage() {
             ※
             どの事例にも4原則すべてが見出せる。ここでは特に際立つ2つを濃く、残り2つを薄く示している。
           </p>
-          <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+          <div className="bg-gray-50 rounded-none p-6 border border-gray-200">
             <h2 className="font-black tracking-tighter text-gray-900 mb-3">
               逆算アプローチ
             </h2>
@@ -275,7 +275,7 @@ export default function CasesPage() {
               <Link
                 key={caseItem.slug}
                 href={`/case/${caseItem.slug}`}
-                className="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-gray-400 hover:shadow-lg transition-all"
+                className="group block bg-white border border-gray-200 rounded-none p-6 hover:border-gray-400 hover:shadow-lg transition-all"
               >
                 <div className="flex items-start justify-between mb-3">
                   <div>
@@ -329,7 +329,7 @@ export default function CasesPage() {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
             {/* ソフトウェア */}
-            <div className="bg-white rounded-lg p-3 md:p-4 border border-gray-200">
+            <div className="bg-white rounded-none p-3 md:p-4 border border-gray-200">
               <span className="text-xs text-gray-400 uppercase tracking-wider">
                 ソフトウェア
               </span>
@@ -340,7 +340,7 @@ export default function CasesPage() {
                 制約による統一インターフェース
               </p>
             </div>
-            <div className="bg-white rounded-lg p-3 md:p-4 border border-gray-200">
+            <div className="bg-white rounded-none p-3 md:p-4 border border-gray-200">
               <span className="text-xs text-gray-400 uppercase tracking-wider">
                 ソフトウェア
               </span>
@@ -351,7 +351,7 @@ export default function CasesPage() {
                 コードとデータの同一性
               </p>
             </div>
-            <div className="bg-white rounded-lg p-3 md:p-4 border border-gray-200">
+            <div className="bg-white rounded-none p-3 md:p-4 border border-gray-200">
               <span className="text-xs text-gray-400 uppercase tracking-wider">
                 ソフトウェア
               </span>
@@ -362,7 +362,7 @@ export default function CasesPage() {
                 宣言的構成管理
               </p>
             </div>
-            <div className="bg-white rounded-lg p-3 md:p-4 border border-gray-200">
+            <div className="bg-white rounded-none p-3 md:p-4 border border-gray-200">
               <span className="text-xs text-gray-400 uppercase tracking-wider">
                 ソフトウェア
               </span>
@@ -375,7 +375,7 @@ export default function CasesPage() {
             </div>
 
             {/* デザイン・建築 */}
-            <div className="bg-white rounded-lg p-3 md:p-4 border border-gray-200">
+            <div className="bg-white rounded-none p-3 md:p-4 border border-gray-200">
               <span className="text-xs text-gray-400 uppercase tracking-wider">
                 デザイン
               </span>
@@ -386,7 +386,7 @@ export default function CasesPage() {
                 形態は機能に従う
               </p>
             </div>
-            <div className="bg-white rounded-lg p-3 md:p-4 border border-gray-200">
+            <div className="bg-white rounded-none p-3 md:p-4 border border-gray-200">
               <span className="text-xs text-gray-400 uppercase tracking-wider">
                 デザイン
               </span>
@@ -397,7 +397,7 @@ export default function CasesPage() {
                 Less but better
               </p>
             </div>
-            <div className="bg-white rounded-lg p-3 md:p-4 border border-gray-200">
+            <div className="bg-white rounded-none p-3 md:p-4 border border-gray-200">
               <span className="text-xs text-gray-400 uppercase tracking-wider">
                 都市設計
               </span>
@@ -408,7 +408,7 @@ export default function CasesPage() {
                 計画外からの創発
               </p>
             </div>
-            <div className="bg-white rounded-lg p-3 md:p-4 border border-gray-200">
+            <div className="bg-white rounded-none p-3 md:p-4 border border-gray-200">
               <span className="text-xs text-gray-400 uppercase tracking-wider">
                 インフラ
               </span>

@@ -696,7 +696,7 @@ export default async function PrincipleDetailPage({ params }: PageProps) {
               <Link
                 key={c.slug}
                 href={`/case/${c.slug}`}
-                className="block bg-gray-50 rounded-xl p-6 border border-gray-200 hover:border-gray-400 hover:bg-gray-100 transition-colors"
+                className="block bg-gray-50 rounded-none p-6 border border-gray-200 hover:border-gray-400 hover:bg-gray-100 transition-colors"
               >
                 <div className="flex items-start justify-between mb-2">
                   <div>
@@ -736,7 +736,7 @@ export default async function PrincipleDetailPage({ params }: PageProps) {
               <Link
                 key={c.slug}
                 href={`/case/${c.slug}`}
-                className="block rounded-lg p-4 border border-dashed border-gray-300 bg-white hover:border-gray-500 hover:bg-gray-50 transition-colors"
+                className="block rounded-none p-4 border border-dashed border-gray-300 bg-white hover:border-gray-500 hover:bg-gray-50 transition-colors"
               >
                 <div className="flex items-start justify-between mb-1">
                   <div>
@@ -778,13 +778,13 @@ export default async function PrincipleDetailPage({ params }: PageProps) {
         <div className="flex justify-between">
           <Link
             href="/principle"
-            className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-gray-400 transition-colors"
+            className="px-6 py-3 border border-gray-300 text-gray-700 rounded-full hover:border-gray-400 transition-colors"
           >
             ← 4原則一覧
           </Link>
           <Link
             href="/case"
-            className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-gray-400 transition-colors"
+            className="px-6 py-3 border border-gray-300 text-gray-700 rounded-full hover:border-gray-400 transition-colors"
           >
             Cases →
           </Link>
