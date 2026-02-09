@@ -69,26 +69,31 @@ export const Header = memo(function Header() {
                 width: MENU_BUTTON_SIZE,
                 height: MENU_BUTTON_SIZE,
                 padding: "0 8px",
-                backgroundColor: "#171717",
-                color: "#ffffff",
-                border: "none",
-                borderRadius: "0 8px 8px 0",
-                marginLeft: -8,
-                marginRight: "var(--spacing-lg)",
+                backgroundColor: "#fff",
+                color: "#171717",
+                border: "1px solid #d4d4d4",
+                borderLeft: "none",
+                borderRadius: "0 9999px 9999px 0",
+                  marginRight: "var(--spacing-lg)",
                 cursor: "pointer",
                 fontFamily:
                   'var(--font-montserrat), Montserrat, var(--font-noto-sans-jp), "Noto Sans JP", sans-serif',
-                fontSize: "0.875rem",
-                fontWeight: 600,
+                fontSize: "10px",
+                fontWeight: 700,
+                letterSpacing: "0.08em",
                 transition: "background-color 0.2s ease",
+                position: "fixed",
+                left: 0,
+                top: 4,
+                zIndex: 1201,
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = "#404040";
+                e.currentTarget.style.backgroundColor = "#fafafa";
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = "#171717";
+                e.currentTarget.style.backgroundColor = "#fff";
               }}
-              aria-label="メニューを開く"
+              aria-label={mobileOpen ? "メニューを閉じる" : "メニューを開く"}
             >
               {mobileOpen ? "×" : "MENU"}
             </button>
