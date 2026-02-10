@@ -33,6 +33,45 @@ export const Header = memo(function Header() {
 
   return (
     <>
+      {/* MENUボタン */}
+      <button
+        onClick={handleDrawerToggle}
+        className="mobile-menu-button"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          width: MENU_BUTTON_SIZE,
+          height: MENU_BUTTON_SIZE,
+          padding: "0 8px",
+          backgroundColor: "#fff",
+          color: "#171717",
+          border: "1px solid #d4d4d4",
+          borderLeft: "none",
+          borderRadius: "0 9999px 9999px 0",
+          cursor: "pointer",
+          fontFamily:
+            'var(--font-montserrat), Montserrat, var(--font-noto-sans-jp), "Noto Sans JP", sans-serif',
+          fontSize: "10px",
+          fontWeight: 700,
+          letterSpacing: "0.08em",
+          transition: "background-color 0.2s ease",
+          position: "fixed",
+          left: 0,
+          top: 4,
+          zIndex: 1201,
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.backgroundColor = "#fafafa";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.backgroundColor = "#fff";
+        }}
+        aria-label={mobileOpen ? "メニューを閉じる" : "メニューを開く"}
+      >
+        {mobileOpen ? "×" : "MENU"}
+      </button>
+
       <header
         style={{
           position: "fixed",
@@ -56,48 +95,9 @@ export const Header = memo(function Header() {
               alignItems: "center",
               height: HEADER_HEIGHT,
               gap: "var(--spacing-lg)",
+              paddingLeft: 64,
             }}
           >
-            {/* Mobile menu button */}
-            <button
-              onClick={handleDrawerToggle}
-              className="mobile-menu-button"
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                width: MENU_BUTTON_SIZE,
-                height: MENU_BUTTON_SIZE,
-                padding: "0 8px",
-                backgroundColor: "#fff",
-                color: "#171717",
-                border: "1px solid #d4d4d4",
-                borderLeft: "none",
-                borderRadius: "0 9999px 9999px 0",
-                  marginRight: "var(--spacing-lg)",
-                cursor: "pointer",
-                fontFamily:
-                  'var(--font-montserrat), Montserrat, var(--font-noto-sans-jp), "Noto Sans JP", sans-serif',
-                fontSize: "10px",
-                fontWeight: 700,
-                letterSpacing: "0.08em",
-                transition: "background-color 0.2s ease",
-                position: "fixed",
-                left: 0,
-                top: 4,
-                zIndex: 1201,
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = "#fafafa";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = "#fff";
-              }}
-              aria-label={mobileOpen ? "メニューを閉じる" : "メニューを開く"}
-            >
-              {mobileOpen ? "×" : "MENU"}
-            </button>
-
             {/* Logo */}
             <div style={{ flexGrow: 1, display: "flex", alignItems: "center" }}>
               <Link
