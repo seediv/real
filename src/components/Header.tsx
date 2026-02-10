@@ -4,8 +4,8 @@ import React, { useState, useCallback, memo } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-// Header constants (8px grid based) - mirrorと統一
-const HEADER_HEIGHT = 64;
+// Header constants (IPPUKU Gold Standard)
+const HEADER_HEIGHT = 56;
 const MENU_BUTTON_SIZE = 48;
 
 const NAVIGATION = [
@@ -43,7 +43,7 @@ export const Header = memo(function Header() {
           justifyContent: "center",
           width: MENU_BUTTON_SIZE,
           height: MENU_BUTTON_SIZE,
-          padding: "0 8px",
+          padding: 0,
           backgroundColor: "#fff",
           color: "#171717",
           border: "1px solid #d4d4d4",
@@ -52,7 +52,7 @@ export const Header = memo(function Header() {
           cursor: "pointer",
           fontFamily:
             'var(--font-montserrat), Montserrat, var(--font-noto-sans-jp), "Noto Sans JP", sans-serif',
-          fontSize: "10px",
+          fontSize: mobileOpen ? "1.25rem" : "10px",
           fontWeight: 700,
           letterSpacing: "0.08em",
           transition: "background-color 0.2s ease",
@@ -69,7 +69,7 @@ export const Header = memo(function Header() {
         }}
         aria-label={mobileOpen ? "メニューを閉じる" : "メニューを開く"}
       >
-        {mobileOpen ? "×" : "MENU"}
+        {mobileOpen ? "✕" : "MENU"}
       </button>
 
       <header
@@ -90,12 +90,12 @@ export const Header = memo(function Header() {
           style={{ width: "100%", margin: "0 auto" }}
         >
           <div
+            className="header-content"
             style={{
               display: "flex",
               alignItems: "center",
               height: HEADER_HEIGHT,
               gap: "var(--spacing-lg)",
-              paddingLeft: 64,
             }}
           >
             {/* Logo */}

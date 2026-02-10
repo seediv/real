@@ -103,6 +103,11 @@ h1, h2, h3, h4, h5, h6 {
 /* ===========================================
    Header responsive styles
    =========================================== */
+/* Header content: MENUボタン分のpaddingLeft（モバイルのみ） */
+.header-content {
+  padding-left: 64px;
+}
+
 /* Hide mobile menu button on desktop */
 @media (min-width: 768px) {
   .mobile-menu-button {
@@ -116,6 +121,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .header-subtitle {
     display: block;
+  }
+  /* Desktop: MENUボタン非表示 → paddingLeft不要 → ロゴとh1/h2が揃う */
+  .header-content {
+    padding-left: 0;
   }
 }
 
